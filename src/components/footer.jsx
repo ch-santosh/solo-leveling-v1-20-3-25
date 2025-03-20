@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <Trophy className="h-6 w-6" />
-              <span className="font-bold">SportsConnect</span>
+              <span className="font-bold">Solo Leveling</span>
             </Link>
             <p className="max-w-[300px] text-sm text-gray-500">
               Empowering athletes and coaches to achieve their full potential through technology and connection.
@@ -80,7 +80,7 @@ export function Footer() {
         </div>
         <div
           className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-sm text-gray-500">© {new Date().getFullYear()} SportsConnect. All rights reserved.</p>
+          <p className="text-sm text-gray-500">© {new Date().getFullYear()} Solo Leveling. All rights reserved.</p>
         </div>
       </div>
     </footer>)

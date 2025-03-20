@@ -52,7 +52,7 @@ export function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="flex flex-col items-center space-y-4 p-6 border rounded-lg" data-aos="zoom-in" data-aos-duration="2000">
+              className="flex flex-col items-center space-y-4 p-6 border rounded-lg" data-aos="zoom-in" data-aos-duration="1000">
               <div className="p-3 rounded-full bg-primary/10 text-primary">{feature.icon}</div>
               <h3 className="text-xl font-bold">{feature.title}</h3>
               <p className="text-center text-gray-500">{feature.description}</p>

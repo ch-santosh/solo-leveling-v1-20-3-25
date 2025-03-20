@@ -26,12 +26,12 @@ export function HeroSection() {
             </p>
           </div>
           <div className="flex flex-col lg:flex-row gap-6 lg:gap-10" data-aos="fade-in" data-aos-duration="2000">
-            <Link href="/signup" className="w-full">
+            <Link href="/login" className="w-full">
               <Button size="lg" className="px-8">
                 Get Started
               </Button>
             </Link>
-            <Link href="/about">
+            <Link href="/">
               <Button variant="outline" size="lg" className="px-8">
                 Learn More
               </Button>

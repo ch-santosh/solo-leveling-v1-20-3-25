@@ -279,12 +279,12 @@ const ProfilePage = () => {
                 </Avatar>
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
-                    <h1 className="text-2xl font-semibold">{profileData.fullName}</h1>
+                    <h1 className="text-2xl font-semibold">{profileData.fullName[0].toUpperCase()+profileData.fullName.slice(1) }</h1>
                     {profileData.isVerified && (
                       <CheckCircle className="w-5 h-5 text-green-500" />
                     )}
                   </div>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground mt-2 py-2">
                     {type === 'coach' ? `${profileData.primarySport} Coach` : profileData.primarySport}
                   </p>
                   <div className="flex flex-wrap items-center gap-2 mt-2">

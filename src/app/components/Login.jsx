@@ -152,12 +152,16 @@ const Login = () => {
                     <span className="text-sm text-gray-500">Do you have an account? Register Now!</span>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-4 mt-2">
+                    <Link href="/coach_signup" className="w-full">
                     <Button variant="outline" disabled={loading} className="w-full px-4 py-2 font-medium rounded-md">
-                        <Link href="/coach_signup">Coach</Link>
+                        Coach
                     </Button>
+                </Link>
+                <Link href="/player_signup" className="w-full">
                     <Button disabled={loading} className="w-full px-4 py-2 font-medium text-white rounded-md">
-                        <Link href="/player_signup">Player</Link>
-                    </Button>
+                        Player
+                </Button>
+                    </Link>
                 </div>
             </div>
         </div>
